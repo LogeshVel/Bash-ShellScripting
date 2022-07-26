@@ -5,7 +5,7 @@ echo "@ :$@"
 echo "-----------------------"
 
 echo
-echo "@ without quotes"
+echo '@ without quotes - cmd $@'
 echo
 for x in $@
 do
@@ -13,7 +13,7 @@ do
 done
 
 echo
-echo "* without quotes"
+echo '* without quotes - cmd $*'
 echo
 for x in $*
 do
@@ -23,7 +23,7 @@ done
 
 echo "-----------------------"
 echo
-echo "@ with quotes"
+echo '@ with quotes - cmd "$@"'
 echo
 for x in "$@"
 do
@@ -31,7 +31,7 @@ do
 done
 
 echo
-echo "* with quotes"
+echo '* with quotes - cmd "$*"'
 echo
 for x in "$*"
 do
@@ -40,7 +40,7 @@ done
 
 echo "-----------------------"
 echo
-echo "@ with quotes and {}"
+echo '@ with quotes and {} - cmd "${@}"'
 echo
 for x in "${@}"
 do
@@ -48,7 +48,7 @@ do
 done
 
 echo
-echo "* with quotes and {}"
+echo '* with quotes and {} - cmd "${*}"'
 echo
 for x in "${*}"
 do
