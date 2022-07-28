@@ -11,4 +11,22 @@ case $1 in
   stop)
     echo "Stopping.."
     ;;
+  *)
+    echo "Unmatched pattern"
+    ;;
+esac
+
+# case insensitive
+# ${x,,} to lowercase value of the variable x. 
+# ${x^^} to uppercase value of the variable x.
+case ${1,,} in
+  start)
+    echo "Starting.."
+    ;;
+  stop)
+    echo "Stopping.."
+    ;;
+  *)
+    echo "Unmatched pattern"
+    ;;
 esac
