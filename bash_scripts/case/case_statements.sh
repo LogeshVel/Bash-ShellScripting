@@ -23,7 +23,7 @@ case ${1,,} in
   start)
     echo "Starting.."
     ;;
-  stop)
+  stop|quit) # match any one stop or quit
     echo "Stopping.."
     ;;
   *)
