@@ -25,3 +25,22 @@ echo "Starting the htop.."
 sleep 2
 
 $cmd
+
+# Another way to do this
+
+# program=htop
+# if command -v htop
+# then
+#     echo "htop exists."
+# else
+#     echo "$program doesn't exists. Installing"
+#     echo
+#     sudo apt update && sudo apt  install -y $program
+#     echo
+#     echo "Installed htop"
+# fi
+# echo
+# echo "Starting the htop.."
+# sleep 2
+
+# $program
