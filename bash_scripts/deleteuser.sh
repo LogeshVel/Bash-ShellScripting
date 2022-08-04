@@ -14,6 +14,11 @@ read -p "Enter username to delete: " USERNAME
 # delete user
 deluser $USERNAME
 
+# we could also use userdel command to delete the user.
+# sudo userdel USERNAME
+# sudo userdel -r USERNAME
+# The -r option is used to remove the home directory of the user
+
 if [[ $? -eq 0 ]]
 then
     echo "Successfully deleted the user ${USERNAME}. Exitting"
