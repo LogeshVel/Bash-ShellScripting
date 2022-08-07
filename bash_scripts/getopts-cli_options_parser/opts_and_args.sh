@@ -12,7 +12,7 @@
 # Array of filesname to find in the given path
 
 usage(){
-    echo "$0 [-v] [-p PATH] [-n NUMBER-OF-LINES][FILE1,..]"
+    echo "Usage : $0 [-v] [-p PATH] [-n NUMBER-OF-LINES][FILE1,..]"
     echo
     echo "$0 -v -p /usr/bin -n 10 myfile.txt"
     echo
