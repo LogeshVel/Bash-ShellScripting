@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# This Script uses the getopts to parse the optional args in the CLI
+# This Script uses the getopts to parse the options passed to this script
 
-# To demonstarte that we will be using this script to generate the random string based on the options given by cli
+# To demonstarte that we will be using this script to generate the random string based on the options given for this script
 
-# Available option in this script is v, l, s
+# Available option for this script is v, l, s
 # Here v is for verbose, l is for length of the string out, s is to include the special character in that string
 # Out of this options argument for the option l is mandatory(so in the while it is followed by :)
 
