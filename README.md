@@ -1,6 +1,7 @@
 # Bash-ShellScripting
 Contains Bash scripts
 
+[Article](https://beebom.com/what-is-bash-script-linux/)
 
 ### Tips
 
